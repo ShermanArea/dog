@@ -1,0 +1,181 @@
+
+@font-face {
+    font-family: 'Daniel Black';
+    src: url(fonts/daniel-black.ttf);
+   }
+
+html{
+	padding: 0;
+	margin:0 auto;
+	width: 775px;
+	height:850px;
+	background:#33B6EA;
+}
+body{
+	background:#fff;
+	min-width: 775px;
+	color:#000;
+	font:7px 'ag_helveticaregular', Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+header{
+	height: 83px;
+		
+}
+
+.imgtop {
+	position: absolute;
+								/* <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+nav {
+	position: absolute;
+}
+
+.menu{
+	padding-left: 74px;
+    
+}
+/*Стиль для прямоугольников*/
+.menu_item{
+	width: 52px;
+	height: 10px;
+	margin-top: 12px;
+}
+
+.menu a{
+	display: block;
+	height: 11px;
+	padding: 0;
+	margin: 0;
+	font: 10px 'Myriad Pro Bold Condensed', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+/*Стиль общих блоков меню*/
+.item{
+	float: left;
+	text-align: center;
+	margin: 50px 10px 0 0;
+}
+
+.container{
+	width: 775px;
+	height: 718px;
+	font-size: 7px;
+}
+
+.greendogs{
+	width: 625px;
+	height: 151px;
+	background-color: #b1de37;
+	margin: 205px 0 0 74px;
+	border-radius: 46px;
+	position: relative;
+	z-index: 5;
+	opacity: 0.9;
+}
+
+.greendogs div{
+	float: left;
+	position: relative;
+	z-index: 5;
+	opacity: 0.9;
+}
+.greenshadow {
+	width: 625px;
+	height: 151px;
+	background-color: #fff;
+	margin: -141px 0 0 74px;
+	border-radius: 46px;
+	position: absolute;
+	z-index: 4;
+	opacity: 0.5
+}
+.dog div{
+	display: inline-block;
+	width: 150px;
+}
+.text div{
+	width: 161px;
+}
+.text h1{
+	font: 24px 'Daniel Black', serif;
+}
+
+.seacolordogs{
+	width: 625px;
+	height: 371px;
+	background-color: #54b1d2;
+	margin: -30px 0 0 74px;
+	border-radius: 52px;
+	position: relative;
+	z-index: 3;
+	opacity: 0.9;
+}
+
+.seacolordogs{
+	z-index: 3;
+}
+#bigdog{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	clear: both;
+	top: 15px;
+    left: 299px;
+ }
+#logo{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 133px;
+	left: 66px;
+}
+
+/*@font-face {
+    font-family: Daniel; 
+    src: url(fonts/daniel-black.ttf); 
+}*/
+@font-face {
+    font-family: qwer;
+    src: url(fonts/MyriadPro-BoldCond.tf);
+   }
+#logo_text{
+	display: inline;		/*Dog*/
+	position: absolute;
+	z-index: 3;
+	top: 146px;
+	left: 106px;
+	font-size: 53px;
+	font-family: 'Daniel Black';
+	color: #54b1d2;
+}
+
+
+
+#logo_text1{			/*Kennels*/
+	display: inline;
+	position: absolute;
+	z-index: 4;
+	top: 146px;
+	left: 209px;
+	font-size: 53px;
+	font-family: 'Daniel Black';
+	color: #b1de37;
+}
+#logo_text2{			/*PROFESSIONAL DOG BREEDING*/
+	display: inline;
+	position: absolute;
+	z-index: 5;
+	top: 200px;
+	left: 260px;
+	font-size: 15px;
+	font-family: Impact;
+	color: #959595;
+
+}
+
+
+
